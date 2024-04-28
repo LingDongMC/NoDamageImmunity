@@ -1,0 +1,9 @@
+name: NoDamageImmunity
+version: '${project.version}'
+main: xyz.ldgame.mc.Main
+api-version: 1.20
+authors: [ lockoct ]
+commands:
+  nodamageimmunity:
+    description: 取消玩家伤害免疫指令
+    aliases: [ndi]

@@ -1,2 +1,9 @@
 # NoDamageImmunity
-cancel player damage Immunity
+
+### Description
+Remove player damage immunity
+
+### Command
+```text
+/nbi <playerName>
+```
