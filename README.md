@@ -5,5 +5,5 @@ Remove player damage immunity
 
 ### Command
 ```text
-/nbi <playerName>
+/ndi <playerName>
 ```
