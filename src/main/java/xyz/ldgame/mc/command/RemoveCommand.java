@@ -15,7 +15,7 @@ public class RemoveCommand implements TabExecutor {
     public boolean onCommand(@Nonnull CommandSender sender, @Nonnull Command cmd, @Nonnull String label,@Nonnull String[] args) {
         if (args.length > 0) {
             if (sender instanceof Player player && !player.isOp()) {
-                sendMessage(sender, "设置成功");
+                sendMessage(sender, "你没有权限进行此操作");
                 return false;
             }
             Player victim = Bukkit.getPlayer(args[0]);
